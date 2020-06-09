@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1451DAC5248F2F820096A542 /* FeedbackGeneratorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1451DAC4248F2F820096A542 /* FeedbackGeneratorTableViewController.swift */; };
+		1451DACB248F3F700096A542 /* UIButton+SoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1451DACA248F3F700096A542 /* UIButton+SoundButton.m */; };
+		1451DACD248F40650096A542 /* CateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1451DACC248F40650096A542 /* CateViewController.swift */; };
 		146A0144246CE61B009F840D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146A0143246CE61B009F840D /* AppDelegate.swift */; };
 		146A0146246CE61B009F840D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146A0145246CE61B009F840D /* SceneDelegate.swift */; };
 		146A0148246CE61B009F840D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146A0147246CE61B009F840D /* ViewController.swift */; };
@@ -16,6 +19,7 @@
 		146A0153246CE61D009F840D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146A0151246CE61D009F840D /* LaunchScreen.storyboard */; };
 		146A015E246CE61D009F840D /* WestDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146A015D246CE61D009F840D /* WestDemoTests.swift */; };
 		146A0169246CE61E009F840D /* WestDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146A0168246CE61E009F840D /* WestDemoUITests.swift */; };
+		14C925E5248F5D9C005E8E11 /* UITableViewCell+SelectedFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C925E4248F5D9C005E8E11 /* UITableViewCell+SelectedFeedback.m */; };
 		5B060BDEA2E820FF42E57E82 /* Pods_WestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD035F42E0B56D63C672D68B /* Pods_WestDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1451DAC4248F2F820096A542 /* FeedbackGeneratorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackGeneratorTableViewController.swift; sourceTree = "<group>"; };
+		1451DAC8248F3F700096A542 /* WestDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WestDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		1451DAC9248F3F700096A542 /* UIButton+SoundButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+SoundButton.h"; sourceTree = "<group>"; };
+		1451DACA248F3F700096A542 /* UIButton+SoundButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SoundButton.m"; sourceTree = "<group>"; };
+		1451DACC248F40650096A542 /* CateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CateViewController.swift; sourceTree = "<group>"; };
 		146A0140246CE61B009F840D /* WestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		146A0143246CE61B009F840D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		146A0145246CE61B009F840D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +61,8 @@
 		146A0164246CE61E009F840D /* WestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		146A0168246CE61E009F840D /* WestDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestDemoUITests.swift; sourceTree = "<group>"; };
 		146A016A246CE61E009F840D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14C925E3248F5D9C005E8E11 /* UITableViewCell+SelectedFeedback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+SelectedFeedback.h"; sourceTree = "<group>"; };
+		14C925E4248F5D9C005E8E11 /* UITableViewCell+SelectedFeedback.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+SelectedFeedback.m"; sourceTree = "<group>"; };
 		183F1CC06C42129AEBFEAAFD /* Pods-WestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WestDemo.release.xcconfig"; path = "Target Support Files/Pods-WestDemo/Pods-WestDemo.release.xcconfig"; sourceTree = "<group>"; };
 		1C82E53D2089C0907FF79CFB /* Pods-WestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WestDemo.debug.xcconfig"; path = "Target Support Files/Pods-WestDemo/Pods-WestDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CD035F42E0B56D63C672D68B /* Pods_WestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +102,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1451DAC3248F2F480096A542 /* FeedbackGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				1451DAC4248F2F820096A542 /* FeedbackGeneratorTableViewController.swift */,
+			);
+			path = FeedbackGenerator;
+			sourceTree = "<group>";
+		};
+		1451DAC6248F3E0A0096A542 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				1451DACC248F40650096A542 /* CateViewController.swift */,
+			);
+			path = Bundle;
+			sourceTree = "<group>";
+		};
+		1451DAC7248F3F2B0096A542 /* Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				1451DAC9248F3F700096A542 /* UIButton+SoundButton.h */,
+				1451DACA248F3F700096A542 /* UIButton+SoundButton.m */,
+				14C925E3248F5D9C005E8E11 /* UITableViewCell+SelectedFeedback.h */,
+				14C925E4248F5D9C005E8E11 /* UITableViewCell+SelectedFeedback.m */,
+			);
+			path = "Objective-C";
+			sourceTree = "<group>";
+		};
 		146A0137246CE61B009F840D = {
 			isa = PBXGroup;
 			children = (
@@ -116,14 +154,14 @@
 		146A0142246CE61B009F840D /* WestDemo */ = {
 			isa = PBXGroup;
 			children = (
-				146A0143246CE61B009F840D /* AppDelegate.swift */,
-				146A0145246CE61B009F840D /* SceneDelegate.swift */,
-				146A0147246CE61B009F840D /* ViewController.swift */,
+				14C925E2248F5C25005E8E11 /* Swift */,
+				1451DAC7248F3F2B0096A542 /* Objective-C */,
 				146A0149246CE61B009F840D /* Main.storyboard */,
 				146A014F246CE61D009F840D /* Assets.xcassets */,
 				146A0151246CE61D009F840D /* LaunchScreen.storyboard */,
 				146A0154246CE61D009F840D /* Info.plist */,
 				146A014C246CE61B009F840D /* WestDemo.xcdatamodeld */,
+				1451DAC8248F3F700096A542 /* WestDemo-Bridging-Header.h */,
 			);
 			path = WestDemo;
 			sourceTree = "<group>";
@@ -146,13 +184,24 @@
 			path = WestDemoUITests;
 			sourceTree = "<group>";
 		};
+		14C925E2248F5C25005E8E11 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				1451DAC6248F3E0A0096A542 /* Bundle */,
+				1451DAC3248F2F480096A542 /* FeedbackGenerator */,
+				146A0143246CE61B009F840D /* AppDelegate.swift */,
+				146A0145246CE61B009F840D /* SceneDelegate.swift */,
+				146A0147246CE61B009F840D /* ViewController.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
 		25C63978B7BCB7982A378789 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				1C82E53D2089C0907FF79CFB /* Pods-WestDemo.debug.xcconfig */,
 				183F1CC06C42129AEBFEAAFD /* Pods-WestDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -226,6 +275,7 @@
 				TargetAttributes = {
 					146A013F246CE61B009F840D = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 					146A0158246CE61D009F840D = {
 						CreatedOnToolsVersion = 11.4;
@@ -331,8 +381,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1451DAC5248F2F820096A542 /* FeedbackGeneratorTableViewController.swift in Sources */,
 				146A0148246CE61B009F840D /* ViewController.swift in Sources */,
 				146A014E246CE61B009F840D /* WestDemo.xcdatamodeld in Sources */,
+				14C925E5248F5D9C005E8E11 /* UITableViewCell+SelectedFeedback.m in Sources */,
+				1451DACB248F3F700096A542 /* UIButton+SoundButton.m in Sources */,
+				1451DACD248F40650096A542 /* CateViewController.swift in Sources */,
 				146A0144246CE61B009F840D /* AppDelegate.swift in Sources */,
 				146A0146246CE61B009F840D /* SceneDelegate.swift in Sources */,
 			);
@@ -508,15 +562,19 @@
 			baseConfigurationReference = 1C82E53D2089C0907FF79CFB /* Pods-WestDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8NC9AT93C5;
 				INFOPLIST_FILE = WestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = HT.WestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/seven/WestDemo/WestDemo/WestDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -527,15 +585,18 @@
 			baseConfigurationReference = 183F1CC06C42129AEBFEAAFD /* Pods-WestDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8NC9AT93C5;
 				INFOPLIST_FILE = WestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = HT.WestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/seven/WestDemo/WestDemo/WestDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
