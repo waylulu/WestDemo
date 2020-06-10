@@ -10,7 +10,7 @@ import UIKit
 import AudioToolbox
 
 class FeedbackGeneratorTableViewController: UITableViewController {
-    var dataArr = [["light","medium","heavy"],["success","warning","error"],["selectionChanged"],["AudioServicesPlaySystemSound"]];
+    var dataArr = [["light","medium","heavy","soft","rigid"],["success","warning","error"],["selectionChanged"],["AudioServicesPlaySystemSound"]];
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -77,8 +77,16 @@ class FeedbackGeneratorTableViewController: UITableViewController {
                 let gen = UIImpactFeedbackGenerator.init(style: .medium);
                 gen.prepare();//反馈延迟最小化
                 gen.impactOccurred()//触发效果
-            }else{
+            }else if indexPath.row == 2{
                 let gen = UIImpactFeedbackGenerator.init(style: .heavy);
+                gen.prepare();//反馈延迟最小化
+                gen.impactOccurred()//触发效果
+            }else if indexPath.row == 3{
+                let gen = UIImpactFeedbackGenerator.init(style: .soft);
+                gen.prepare();//反馈延迟最小化
+                gen.impactOccurred()//触发效果
+            }else if indexPath.row == 4{
+                let gen = UIImpactFeedbackGenerator.init(style: .rigid);
                 gen.prepare();//反馈延迟最小化
                 gen.impactOccurred()//触发效果
             }
