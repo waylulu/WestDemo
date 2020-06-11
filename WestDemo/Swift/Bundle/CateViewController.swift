@@ -7,6 +7,9 @@
 //
 
 import UIKit
+///是否是模拟器
+let isSimulator = (TARGET_IPHONE_SIMULATOR == 1 && TARGET_OS_IPHONE == 1) ? true : false;
+
 class CateViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -22,6 +25,9 @@ class CateViewController: UIViewController {
     
     @objc func click() {
         print("click");
+        print(isSimulator)
+//        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "test"), object: self);
+
     }
 
     /*

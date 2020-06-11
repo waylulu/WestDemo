@@ -7,7 +7,7 @@
 //
 
 #import "UITableViewCell+SelectedFeedback.h"
-
+//#import "WestDemo-Swift.h"
 @implementation UITableViewCell (SelectedFeedback)
 - (void)drawRect:(CGRect)rect{
 //    [super performSelector:@selector(gen) withObject:self];
@@ -16,9 +16,9 @@
     
     UIView *view_bg = [[UIView alloc]initWithFrame:self.frame];
     view_bg.backgroundColor = [UIColor cyanColor];
-    self.selectedBackgroundView = view_bg;
+//    self.selectedBackgroundView = view_bg;
     
-    
+    self.contentView.backgroundColor = UIColor.cyanColor;
 }
 - (void)gen{
     UISelectionFeedbackGenerator * gen = [[UISelectionFeedbackGenerator alloc] init];
