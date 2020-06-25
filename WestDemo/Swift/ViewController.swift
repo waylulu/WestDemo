@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import LocalAuthentication
 let Width = UIScreen.main.bounds.width;
 let Height = UIScreen.main.bounds.height;
 
@@ -57,6 +58,10 @@ extension ViewController :UITableViewDelegate,UITableViewDataSource{
             break;
         case 1:
             cell.textLabel?.text = "按钮震动效果";
+        case 2:
+            cell.textLabel?.text = "Face ID";
+        case 3:
+            cell.textLabel?.text = "Data";
         default:
             break;
         }
@@ -75,9 +80,35 @@ extension ViewController :UITableViewDelegate,UITableViewDataSource{
             
         case 1:
             self.navigationController?.pushViewController(CateViewController(), animated: true);
+        case 2:
+            self.testFaceId();
+            break;
+        case 3:
+            self.data();
         default:
             break;
         }
     }
     
+    func testFaceId() {
+        let context = LAContext.init();
+        if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: .none) {
+            context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: "Face ID") {[weak self] (s, err) in
+                if s {
+                    DispatchQueue.main.async {
+                        self?.navigationController?.pushViewController(TestOCViewController(), animated:true);
+
+                    }
+                    
+
+                }else{
+                    print(err);
+                }
+            }
+        }
+    }
+    func data() {
+        self.navigationController?.pushViewController(TestOCViewController(), animated:true);
+    }
 }
+

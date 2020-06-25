@@ -20,6 +20,7 @@
     
 }
 -(void)s{
+    //震动反馈
     UIImpactFeedbackGenerator * gen = [[UIImpactFeedbackGenerator alloc] initWithStyle:(UIImpactFeedbackStyleMedium)];
     [gen prepare];
     [gen impactOccurred];

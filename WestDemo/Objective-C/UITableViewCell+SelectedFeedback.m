@@ -7,7 +7,7 @@
 //
 
 #import "UITableViewCell+SelectedFeedback.h"
-//#import "WestDemo-Swift.h"
+#import "WestDemo-Swift.h"
 @implementation UITableViewCell (SelectedFeedback)
 - (void)drawRect:(CGRect)rect{
 //    [super performSelector:@selector(gen) withObject:self];

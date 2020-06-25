@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1448BFE724A0DE6C00F17D06 /* MyNetApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1448BFE524A0DE6C00F17D06 /* MyNetApiClient.m */; };
+		144E45892498A2D600B27D3E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144E45882498A2D600B27D3E /* Constant.swift */; };
 		1451DAC5248F2F820096A542 /* FeedbackGeneratorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1451DAC4248F2F820096A542 /* FeedbackGeneratorTableViewController.swift */; };
 		1451DACB248F3F700096A542 /* UIButton+SoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1451DACA248F3F700096A542 /* UIButton+SoundButton.m */; };
 		1451DACD248F40650096A542 /* CateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1451DACC248F40650096A542 /* CateViewController.swift */; };
+		146988DC2499C450003635A4 /* UILabel+AttribtedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 146988DB2499C450003635A4 /* UILabel+AttribtedString.m */; };
+		146988DF2499C4F8003635A4 /* TestOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146988DE2499C4F8003635A4 /* TestOCViewController.m */; };
+		146988E22499C78F003635A4 /* Exten.m in Sources */ = {isa = PBXBuildFile; fileRef = 146988E12499C78F003635A4 /* Exten.m */; };
 		146A0144246CE61B009F840D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146A0143246CE61B009F840D /* AppDelegate.swift */; };
 		146A0146246CE61B009F840D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146A0145246CE61B009F840D /* SceneDelegate.swift */; };
 		146A0148246CE61B009F840D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146A0147246CE61B009F840D /* ViewController.swift */; };
@@ -41,11 +46,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1448BFE524A0DE6C00F17D06 /* MyNetApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNetApiClient.m; sourceTree = "<group>"; };
+		1448BFE624A0DE6C00F17D06 /* MyNetApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNetApiClient.h; sourceTree = "<group>"; };
+		144E45882498A2D600B27D3E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		1451DAC4248F2F820096A542 /* FeedbackGeneratorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackGeneratorTableViewController.swift; sourceTree = "<group>"; };
 		1451DAC8248F3F700096A542 /* WestDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WestDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		1451DAC9248F3F700096A542 /* UIButton+SoundButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+SoundButton.h"; sourceTree = "<group>"; };
 		1451DACA248F3F700096A542 /* UIButton+SoundButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SoundButton.m"; sourceTree = "<group>"; };
 		1451DACC248F40650096A542 /* CateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CateViewController.swift; sourceTree = "<group>"; };
+		146988DA2499C450003635A4 /* UILabel+AttribtedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+AttribtedString.h"; sourceTree = "<group>"; };
+		146988DB2499C450003635A4 /* UILabel+AttribtedString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AttribtedString.m"; sourceTree = "<group>"; };
+		146988DD2499C4F8003635A4 /* TestOCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestOCViewController.h; sourceTree = "<group>"; };
+		146988DE2499C4F8003635A4 /* TestOCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOCViewController.m; sourceTree = "<group>"; };
+		146988E02499C78F003635A4 /* Exten.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exten.h; sourceTree = "<group>"; };
+		146988E12499C78F003635A4 /* Exten.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exten.m; sourceTree = "<group>"; };
 		146A0140246CE61B009F840D /* WestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		146A0143246CE61B009F840D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		146A0145246CE61B009F840D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +116,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1448BFE424A0DE4D00F17D06 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1448BFE624A0DE6C00F17D06 /* MyNetApiClient.h */,
+				1448BFE524A0DE6C00F17D06 /* MyNetApiClient.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		1451DAC3248F2F480096A542 /* FeedbackGenerator */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				1451DACC248F40650096A542 /* CateViewController.swift */,
+				144E45882498A2D600B27D3E /* Constant.swift */,
 			);
 			path = Bundle;
 			sourceTree = "<group>";
@@ -121,10 +145,17 @@
 		1451DAC7248F3F2B0096A542 /* Objective-C */ = {
 			isa = PBXGroup;
 			children = (
+				1448BFE424A0DE4D00F17D06 /* Network */,
 				1451DAC9248F3F700096A542 /* UIButton+SoundButton.h */,
 				1451DACA248F3F700096A542 /* UIButton+SoundButton.m */,
 				14C925E3248F5D9C005E8E11 /* UITableViewCell+SelectedFeedback.h */,
 				14C925E4248F5D9C005E8E11 /* UITableViewCell+SelectedFeedback.m */,
+				146988DA2499C450003635A4 /* UILabel+AttribtedString.h */,
+				146988DB2499C450003635A4 /* UILabel+AttribtedString.m */,
+				146988DD2499C4F8003635A4 /* TestOCViewController.h */,
+				146988DE2499C4F8003635A4 /* TestOCViewController.m */,
+				146988E02499C78F003635A4 /* Exten.h */,
+				146988E12499C78F003635A4 /* Exten.m */,
 			);
 			path = "Objective-C";
 			sourceTree = "<group>";
@@ -381,10 +412,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				146988DF2499C4F8003635A4 /* TestOCViewController.m in Sources */,
 				1451DAC5248F2F820096A542 /* FeedbackGeneratorTableViewController.swift in Sources */,
+				1448BFE724A0DE6C00F17D06 /* MyNetApiClient.m in Sources */,
 				146A0148246CE61B009F840D /* ViewController.swift in Sources */,
+				144E45892498A2D600B27D3E /* Constant.swift in Sources */,
 				146A014E246CE61B009F840D /* WestDemo.xcdatamodeld in Sources */,
 				14C925E5248F5D9C005E8E11 /* UITableViewCell+SelectedFeedback.m in Sources */,
+				146988E22499C78F003635A4 /* Exten.m in Sources */,
+				146988DC2499C450003635A4 /* UILabel+AttribtedString.m in Sources */,
 				1451DACB248F3F700096A542 /* UIButton+SoundButton.m in Sources */,
 				1451DACD248F40650096A542 /* CateViewController.swift in Sources */,
 				146A0144246CE61B009F840D /* AppDelegate.swift in Sources */,

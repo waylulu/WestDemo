@@ -7,4 +7,8 @@ use_frameworks!
 
 target 'WestDemo' do
 pod 'FMDB'
+pod 'AFNetworking'
+pod 'MBProgressHUD'
+pod 'MJRefresh'
+pod 'YYKit'
 end

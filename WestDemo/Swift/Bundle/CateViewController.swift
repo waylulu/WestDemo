@@ -7,8 +7,6 @@
 //
 
 import UIKit
-///是否是模拟器
-let isSimulator = (TARGET_IPHONE_SIMULATOR == 1 && TARGET_OS_IPHONE == 1) ? true : false;
 
 class CateViewController: UIViewController {
 
@@ -27,7 +25,16 @@ class CateViewController: UIViewController {
         print("click");
         print(isSimulator)
 //        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "test"), object: self);
-
+        let s = "sdag";
+        
+        let filemgr = FileManager.default
+        let databasePath = NSSearchPathForDirectoriesInDomains(.documentDirectory,.userDomainMask, true).first!.appendingFormat("/AVIOT_KB522_3040_ADK66.1_20200615_v1.4.bin")
+        if(!filemgr.fileExists(atPath: databasePath)){
+            //创建文件夹
+            filemgr.createFile(atPath: databasePath, contents: nil, attributes: nil)
+        }
+        
+        print(URL.init(string: databasePath)!);
     }
 
     /*
